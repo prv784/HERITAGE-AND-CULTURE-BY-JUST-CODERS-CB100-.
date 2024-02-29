@@ -1,0 +1,530 @@
+@charset "UTF-8";
+
+@import url(../css/font.css);
+
+html,body{
+	
+	margin:0%;
+	box-sizing:border-box;
+	overflow-x:hidden;
+}
+
+:root{
+	
+	/* Theme color */
+	--midnight:white;
+	--text-new:#d62828;
+	--text-old:#802BB1;
+	--tetx-w: linear-gradient(45deg,#ff3399  24%,  #000066 100%);
+	--text-b:#2D283E;
+	--text-g:#564F6F;
+	--text-gg:#4C495D;
+	--text-bl:#2E5090;
+	--text-p:#D4A59A; 
+}
+/* ---------------------gradiant color-----------------------*/
+
+
+/*----------------------Global classes-----------------------*/
+
+a{
+	text-decoration:none;
+	color:var(--text-gray);
+}
+
+ul{
+	
+		list-style-type:none;
+	
+}
+.flex-row{
+	
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+
+h3{
+	font-family: Amatic_SC;
+   font-size: 1.6rem;
+}
+
+h1{
+
+	font-family: Amatic_SC;
+	font-size: 2.5rem;
+	
+}
+h4{
+
+	font-family: Merienda_one;
+	font-size:1.5rem;
+    color: #000066;
+}
+h5{
+
+	font-family: Merienda_one;
+	font-size: 1rem;
+	color: #ff3399;
+}
+  
+p{
+	
+	margin: 2rem 3rem;
+}
+
+.title-l{
+	background-color: #EED2EE;
+	padding:2rem;
+}
+
+span{
+ font-family: Amatic_SC;
+ color: #2E0854;
+}
+
+.container{
+	margin: 0 5vw;
+}
+
+h2{
+font-family: Merienda_one;
+font-size: 2rem;
+margin: 7rem 0rem 5rem 0rem;
+color: #2E0854;
+text-align:center;
+font-size: 3rem;
+
+/*text-underline-position:below ;*/
+}
+/*
+u{
+	text-decoration-color:var(--text-g);
+}
+*/
+
+.title i{
+   color:#ff3399;
+   padding-right: 1rem;
+}
+
+button.btn{
+
+	border:ridge;
+	border-radius: 2rem;
+	padding: .5rem 1.5rem;
+	font-family:Amatic_SC;
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+
+.ss i{
+	color:#ff3399;
+	padding-right: 1rem;
+
+}
+/*---------------x--------Global classes-------------x--------*/
+
+
+
+
+
+/*----------------------------Navbar-------------------------*/
+
+.nav{
+	
+	background:var(--tetx-w);
+	padding:0.5rem 2rem;
+	height:0rem;
+	min-height:10vh;
+	overflow:hidden;
+	transition: height 1s ease-in-out;
+	/*position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10000;*/
+	
+}
+
+.nav .nav-menu{
+	justify-content:space-between;
+}
+
+.nav .toggle-collapse{
+	position:absolute;
+	top:0%;
+	width:90%;
+	cursor:pointer;
+	display:none;
+}
+
+.nav .toggle-collapse .toggle-icons{
+	display: flex;
+	justify-content: flex-end;
+	padding:1.5rem 0;
+}
+
+
+.nav .toggle-collapse .toggle-icons i{
+	
+	font-size: 1.2rem;
+	color:var(--text-gray);
+}
+
+.collapse{
+	height:30rem;
+}
+
+.nav .nav-items{
+    display:flex;
+	
+	
+}
+
+
+.nav .nav-items .nav-link{
+	padding:1rem 1rem;
+	font-size:1.1rem;
+	position:relative;
+	font-family:Bahnschrift Condensed;
+	font-size: 1.1rem;
+}
+
+.nav .nav-items .nav-link:hover{
+	background-color:whitesmoke;
+	opacity: 0.5;
+}
+
+.nav .nav-items .nav-link:hover a{
+	color:#000066;
+}
+.nav .nav-brand a{
+	font-size:1.6rem;
+	padding:.5rem 0;
+	display: block;
+	font-family:Arizonia;
+	font-size:2.5rem;
+	color:var(--midnight);
+	font-style: bold;
+}
+ .nav .nav-menu .nav-link a{
+
+	color:var(--midnight);
+ }
+
+ .nav .social i{
+	 color: var(--midnight);
+ }
+.nav .social{
+	
+	padding:1.4rem 0;
+}
+
+.nav .social i{
+	padding: 0 .2rem;
+	
+}
+
+.nav .social i:hover{
+	color:#F9A826;
+	
+}
+
+.nav .nav-brand i{
+	padding:0 1rem 0 0;
+	color:#000066;
+}
+
+/*--------------x-------------Navbar-----------x-------------*/
+
+
+
+/*------------------------Main Content-----------------------*/
+
+	/*---------------site style---------------*/
+	
+main .site-title{
+	background: url("../images/Yellow\ Black\ Jazz\ Music\ Youtube\ Channel\ Art1.png");
+	background-size: cover;
+	height: 100vh;
+	background-repeat: no-repeat;
+}
+
+ main .site-title h1,h3{
+	color: black;
+	font-weight: bolder;
+ }
+
+main .site-title .site-background{
+  padding-top:10rem;
+  text-align: center;
+  color:var(--midnight);
+}
+
+main .site-title .btn:hover{
+	background: transparent;
+    color:black;
+}
+
+
+main .site-title .btn{
+
+	margin: 1rem;
+	background:var(--tetx-w);
+	color: black;
+	font-family:Amatic_SC;
+}
+   /*--------x-------Site Style--------x-------*/
+
+
+   /*----------------Site 2nd Style-----------*/
+main .title{
+	font-family:able;
+	color:black;
+	margin: 2rem 1.8rem;
+	
+}
+
+main .title-l p{
+	font-family: Aarial;
+	margin: 2rem 3rem;
+	font-size: 1.3rem;
+	position: relative;
+	display: block;
+}
+
+main .ss{
+	margin: 2rem 1.8rem;
+}
+main .ss1{
+	margin: 2rem 1.8rem;
+}
+
+   /*--------x-------Site 2nd Style----x------*/
+
+   /*-------------------Blog------------------*/
+main .blog .blog-post{
+	margin: 4rem 1.8rem;
+	padding-top: 4rem;
+}
+
+main .blog-post .blog-content{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 80%;
+	margin: 2rem 1rem;
+	box-shadow:  0 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+main .blog-content .blog-title{
+	padding:0.5rem 0;
+}
+
+
+
+main .blog-content .btn-blog{
+	padding:0.3rem 1.5rem;
+	background:#7b2cbf;
+	margin:0.5rem 2rem;
+	color: black;
+}
+   
+main .blog-content .btn-blog:hover{
+	background-color: transparent;
+}
+
+main .blog-content span{
+  display:block;
+}
+
+section .container .owl-nav{
+
+	position: absolute;
+	top:0%;
+	margin: 0 auto;
+	width:100%;
+}
+
+.owl-carousel .blog-content{
+	background:#EED2EE;
+}
+
+.owl-nav .owl-prev .owl-nav-prev,
+.owl-nav .owl-next .owl-nav-next{
+	color:#000066;
+	background: transparent;
+	font-size: 2rem;
+}
+.owl-theme .owl-nav [class*='owl-']:hover{
+	background: transparent;
+	color:#C71585;
+}
+
+.owl-theme .owl-nav [class*='owl-']{
+	outline: none;
+}
+
+
+   /*--------x----------Blog-----------x------*/
+
+  
+/*------------x-----------Main Content-------------x---------*/
+
+
+/*------------------------Footer-----------------------------*/
+
+footer.footer{
+	height: 100%;
+	background:var(--tetx-w);
+	 position:relative;
+}
+
+footer.footer .container{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+
+}
+
+footer.footer .container > div{
+	  flex-grow: 1;
+	  flex-basis: 0;
+	  padding: 3rem .9rem;
+}
+
+footer.footer .container .about-us h3{
+	color: var(--midnight);
+	font-family: Amatic_SC;
+	font-size: 1rem;
+}
+
+footer.footer .container .about-us h2{
+	color: var(--midnight);
+	font-family: Alex_Brush;
+	font-size: 2rem;
+	margin:4rem 1rem 0rem 0rem;
+}
+
+footer.footer .container .instagram h3{
+	color:var(--midnight);
+	font-family: Amatic_SC;
+}
+
+footer.footer .container .instagram h2{
+	color: var(--midnight);
+	font-family: Alex_Brush;
+	font-size: 2rem;
+	margin:4rem 1rem 0rem 0rem;
+
+}
+
+footer.footer .container .follow h2{
+	color: var(--midnight);
+	font-family: Alex_Brush;
+	font-size: 2rem;
+	margin:4rem 1rem 0rem 0rem;
+}
+
+footer.footer .container .follow i:hover{
+      color:#F9A826;
+
+}
+
+footer.footer .instagram div >img{
+	display:inline-block;
+	width: 25%;
+	height: 50%;
+	margin:.1rem .1rem;
+}
+
+footer.footer .follow div i{
+	color:var(--midnight);
+	padding:0 .4rem;
+	
+}
+
+footer.footer .rights{
+  justify-content: center;
+  font-family: Able;
+}
+
+footer.footer .rights h4 a{
+	color:black
+}
+
+footer.footer .move-up{
+	position: absolute;
+	right:6%;
+	top:50%;
+}
+
+footer.footer .move-up span:hover{
+	color:black;
+}
+/*--------------x---------Footer--------------------x--------*/
+
+footer.footer .container{
+	grid-template-columns: repeat(3,1fr);
+}
+
+/*-----------viewport less than or equal to 750px------------*/
+
+@media only screen and (max-width: 750px){
+	
+	.nav .nav-menu , .nav .nav-items{
+	  flex-direction: column;
+	}
+	.nav .toggle-collapse{
+	
+	display:initial;
+}
+main .site-content{
+	grid-template-columns:100% ;
+}
+
+footer.footer .container{
+  grid-template-columns: repeat(1,1fr);
+}
+
+}
+
+
+/*-----x-----viewport less than or equal to 750px------x-----*/
+/*-----------viewport less than or equal to 520px------------*/
+
+@media only screen and (max-width:520px){
+	main .blog{
+		height:125vh;
+	}
+	footer.footer .container >div{
+       padding:1rem .9rem !important;
+	}
+	footer .rights{
+		padding: 0 1.4rem;
+		text-align:center;
+	}
+	
+	nav .toggle-collapse{
+		width:80% !important;
+	}
+}
+
+
+/*-----x-----viewport less than or equal to 520px------x-----*/
+
+/*----------viewport less than or equal to 800px-----------*/
+@media only screen and (max-width:800px){
+	 
+	.nav .nav-menu , .nav .nav-items{
+		flex-direction: column;
+	  }
+	  .nav .toggle-collapse{
+	  
+	  display:initial;
+  }
+	nav .toggle-collapse .toggle-icons{
+		width:95% !important;
+	}
+}
+
+/*-----x-----viewport less than or equal to 800px------x-----*/

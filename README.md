@@ -1,2 +1,3 @@
-# HERITAGE-AND-CULTURE-BY-JUST-CODERS-CB100-.
-HERE WE ARE GOING TO SEE DIFFERENT TYPES OF HERITAGE AND CULTURE IN INDIA.
+# KW
+IDE - Visual Studio Code
+To visit site - https://kalpanawalhe.github.io/KW/Index.html
